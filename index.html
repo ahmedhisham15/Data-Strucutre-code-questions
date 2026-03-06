@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Data Structures Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Data Structures Quiz</h1>
+    <p class="subtitle">80 Questions • 30 Code • 50 Theory</p>
+
+    <div id="grid" class="grid"></div>
+
+    <div class="card">
+      <div class="topbar">
+        <h2 id="qTitle">Question 1</h2>
+        <span id="qType" class="badge">Code</span>
+      </div>
+
+      <p id="qText" class="qText"></p>
+
+      <pre id="codeBlock" class="codeBlock"></pre>
+
+      <div id="options" class="options"></div>
+
+      <div class="buttons">
+        <button id="prevBtn" class="navBtn">Previous</button>
+        <button id="showBtn" class="showBtn">Show Answer</button>
+        <button id="nextBtn" class="navBtn">Next</button>
+      </div>
+
+      <div id="answerBox" class="answerBox hidden">
+        <p><strong>Correct Answer:</strong> <span id="correctAnswer"></span></p>
+        <p><strong>Explanation:</strong> <span id="explanation"></span></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
